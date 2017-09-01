@@ -2,6 +2,10 @@
 
 Source code of the popular game on GAMEE. 
 
+Spinner game has implements **basic functionality** of the gamee-js framework and **save state feature**. 
+Most of the basic functionality is dedicated in [src/gamee/GameeConnector.js](https://github.com/gameeapp/sample-game-spinner-winner/blob/master/src/gamee/GameeConnector.js) (find more about [the basic functionality](https://github.com/gameeapp/gamee-js/wiki/basic-usage) in the gamee-js wiki).
+The save state feature is used in [src/Game.js L137](https://github.com/gameeapp/sample-game-spinner-winner/blob/1b98338af5d3230ad419f4297cf42aaec3fb1b78/src/Game.js#L137-L146) (find more about [the save state feature](https://github.com/gameeapp/gamee-js/wiki/advanced-usage#gameegamesave)).
+
 ## Open in the Emulator right now
 
 Hosted directly from github:
@@ -45,5 +49,5 @@ Modify source code in the `src/` folder.
 └── www                 # static assets
     ├── assets          # multimedia assets
     ├── dist            # build from src
-    └── libs            # js libraries
+    └── libs            # js libraries including gamee-js framework
 ```
