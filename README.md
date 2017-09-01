@@ -16,6 +16,7 @@ Clone the repository and install the dependencies with NPM.
 
 ```bash
 git clone git@github.com:gameeapp/sample-game-spinner-winner.git --depth 1
+cd sample-game-spinner-winner
 npm install
 ```
 
