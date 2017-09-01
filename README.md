@@ -1,11 +1,36 @@
-# Gamee pack
+# Spinner Winner 
 
-## Start new project
+Source code of the popular game on GAMEE. 
 
-To start new project, clone this repo without history
+## Open in the Emulator right now
 
-    [name] = name of your game
-    
+Hosted directly from github:
+
+[http://emulator.gameeapp.com/emulator.html?projectUrl=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html](http://emulator.gameeapp.com/emulator.html?projectUrl=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html) 
+
+## Modify something
+
+Required: NodeJS, NPM
+
+Clone the repository and install the dependencies with NPM.
+
+```bash
+git clone git@github.com:gameeapp/sample-game-spinner-winner.git --depth 1
+npm install
 ```
-git clone git@github.com:EntityB/html5-game-starter-pack.git --depth 1 -b gamee-pack [name]
+
+Start realtime building with Webpack 2 and webserver with NodeJS & Express. 
+
+```bash
+## Windows 
+npm start
+
+## OSX
+npm run osx
 ```
+
+Test if the game is running, use localhost URL in the Emulator. 
+
+[http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000](http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000) 
+
+Modify source code in the `src/` folder.
