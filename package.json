@@ -1,5 +1,5 @@
 {
-  "name": "html5-game-starter-pack",
+  "name": "sample-game-spinner-winner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,18 +7,15 @@
     "b:dist": "webpack --env=prod --config config/webpack.config.js --progress --profile --colors",
     "watch": "webpack --env=prod --config config/webpack.config.js --progress --profile --colors --watch",
     "server": "node ./run-server.js",
-    "start": "start npm run watch && start npm run server"
+    "start": "start npm run watch && start npm run server",
+    "osx": "npm run watch & npm run server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EntityB/game-starter.git"
+    "url": "git+https://github.com:gameeapp/sample-game-spinner-winner.git"
   },
   "author": "Entity Black",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EntityB/game-starter/issues"
-  },
-  "homepage": "https://github.com/EntityB/game-starter#readme",
   "dependencies": {
     "express": "^4.15.3"
   },
