@@ -34,3 +34,15 @@ Test if the game is running, use localhost URL in the Emulator.
 [http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000](http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000) 
 
 Modify source code in the `src/` folder.
+
+### Project structure
+
+```
+.
+├── config              # webpack configuration
+├── src                 # javascript sources
+└── www                 # static assets
+    ├── assets          # multimedia assets
+    ├── dist            # build from src
+    └── libs            # js libraries
+```
