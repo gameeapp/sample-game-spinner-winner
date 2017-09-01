@@ -26,7 +26,7 @@ Start realtime building with Webpack 2 and webserver with NodeJS & Express.
 ## Windows 
 npm start
 
-## OSX
+## Liux & OSX
 npm run osx
 ```
 
