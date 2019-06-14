@@ -10,7 +10,7 @@ Save state feature is used in [src/Game.js](https://github.com/gameeapp/sample-g
 
 Hosted directly from github:
 
-[http://emulator.gameeapp.com/emulator.html?projectUrl=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html](http://emulator.gameeapp.com/emulator.html?projectUrl=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html) 
+[http://emulator.gameeapp.com/emulator?url=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html](http://emulator.gameeapp.com/emulator?url=https://cdn.rawgit.com/gameeapp/sample-game-spinner-winner/master/www/index.html) 
 
 ## Modify something
 
@@ -36,7 +36,7 @@ npm run osx
 
 Test if the game is running, use localhost URL in the Emulator. 
 
-[http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000](http://emulator.gameeapp.com/emulator.html?projectUrl=http://localhost:3000) 
+[http://emulator.gameeapp.com/emulator?url=http://localhost:3000](http://emulator.gameeapp.com/emulator?url=http://localhost:3000) 
 
 Modify source code in the `src/` folder.
 
